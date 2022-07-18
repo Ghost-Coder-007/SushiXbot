@@ -1,0 +1,83 @@
+{
+  "name": "SushiXbot",
+  "logo": "https://telegra.ph/file/f1c909841493f2c547ccc.png",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://github.com/Ghost-Coder-007/SushiXbot",
+  "stack": "container",
+  "buildpacks": [
+   {
+     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+   }   
+  ],        
+  "env": {
+    "SESSION_NAME": {
+      "description": "Pyrogram session string",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "5522746111:AAFbk14c6Xffsb1pDssI-ctNivWx0dmxFIU",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "SushiXbot",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Sushi",
+      "required": false,
+      "value": ""
+    },
+    "SUPPORT_GROUP": {
+      "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
+      "required": false,
+      "value": "AwesomeSupport"
+    },
+    "PROJECT_NAME": {
+      "description": "Your MusicPlayer project Name.",
+      "required": false,
+      "value": "SushiXbot1.0"
+    },
+    "ASSISTANT_NAME": {
+      "description": "Your MusicPlayer's assistant Username without @.",
+      "required": true
+    },
+    "ARQ_API_KEY": {
+      "description": "Get from @ARQRobot.",
+      "required": false,
+      "value": "MCMQPO-UIMWOE-ZZGXAJ-QMJSOC-ARQ"
+    },    
+    "BG_IMAGE": {
+      "description": "BG image of bot (Use transparent one) [IGNORE].",
+      "required": false,
+      "value": "https://telegra.ph/file/259304cef2549168a4d88.jpg"
+    },     
+    "UPDATES_CHANNEL": {
+      "description": "Updates Channel without @ [Leave this if you don't have one].",
+      "required": false,
+      "value": "LaylaList"
+    },    
+    "API_ID": {
+      "description": "14426136",
+      "required": true
+    },
+    "PMPERMIT": {
+      "description": "Change to turn off",
+      "required": false,
+      "value": "ENABLE"
+    },    
+    "API_HASH": {
+      "description": "057e303587afdcf0883abf7a8aa23510",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "993260226 824741262 5068242533",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "Max audio duration limit for downloads (minutes).",
+      "required": true,
+      "value": "15"
+    }
+  }
+}
