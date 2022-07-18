@@ -5,15 +5,7 @@ The easiest way to deploy this Bot
 
 - Support Channel :- [Awesome Bot](http://t.me/LaylaList)
 
-- Support Group :- [Awesome Support](http://t.me/AwesomeSupport)
-
-
-```
-Please fork this repository don't import code
-Made with Python3
-(C) @QueenArzoo
-
-```
+- Support Group :- [Awesome Support](http://t.me/AwesomeSupport
 
 
 
