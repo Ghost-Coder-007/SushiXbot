@@ -17,7 +17,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="VCPlayBot.modules"),
+    plugins=dict(root="SushiXbot.modules"),
 )
 
 bot.start()
