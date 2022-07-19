@@ -5,7 +5,7 @@ The easiest way to deploy this Bot
 
 - Support Channel :- [Awesome Bot](http://t.me/LaylaList)
 
-- Support Group :- [Awesome Support](http://t.me/AwesomeSupport
+- Support Group :- [Awesome Support](http://t.me/AwesomeSupport)
 
 
 
